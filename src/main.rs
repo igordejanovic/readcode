@@ -20,12 +20,8 @@ const DEFAULT_FONT_NAME: &str = "LiberationMono";
 #[derive(Parser)]
 #[clap(author, about, long_about = None)]
 struct Cli {
-    #[clap(short, long, value_name="ROOT DIR", value_hint = clap::ValueHint::DirPath)]
+    #[clap(value_name="ROOT DIR", value_hint = clap::ValueHint::DirPath)]
     root: PathBuf,
-
-    /// Turn debugging information on
-    #[clap(short, long, action = clap::ArgAction::Count)]
-    debug: u8,
 }
 
 fn to_genpdf_color(syntex_color: syntect::highlighting::Color) -> genpdf::style::Color {
