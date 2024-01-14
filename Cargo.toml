@@ -2,6 +2,12 @@
 name = "readcode"
 version = "0.1.0"
 edition = "2021"
+authors = ["Igor R. Dejanović <igor.dejanovic@gmail.com>"]
+description = "Convert source code to a syntax highlighted pdf"
+license = "Apache-2.0/MIT"
+repository = "https://github.com/igordejanovic/readcode/"
+readme = "README.md"
+keywords = ["source code", "pdf", "syntax", "convertor"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
