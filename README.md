@@ -70,6 +70,9 @@ pdftocio -o output-toc.pdf output.pdf < toc
 
 ```
 
+**Note**: At the root of this repo is a script `readcode-toc.sh` which will do
+this for you.
+
 # TODO
 
 - Improve title detection. E.g. using `File:` prefix instead of font size.
